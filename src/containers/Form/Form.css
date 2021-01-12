@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap");
+
+.container_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.block_form {
+  border-radius: 50px;
+  background: #acaaaa;
+  box-shadow: 0 0px 4px #bebebe, 0px 0px 41px;
+  width: 437px;
+  height: 491px;
+  position: relative;
+  overflow: hidden;
+}
+/*  */
+.form_itme {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.Inp {
+  width: 70%;
+  height: 40px;
+  margin: 10px auto;
+  background: linear-gradient(145deg, #cbcbcb, #ababab);
+  box-shadow: 5px 5px 10px #949494, -5px -5px 10px #e8e8e8;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  padding: 10px;
+}
+.Inp:focus {
+  outline: 0;
+  color: black;
+}
+
+.title_form {
+  font-size: 32px;
+  letter-spacing: 6px;
+  font-family: serif;
+  position: absolute;
+  top: 124px;
+  right: 38px;
+  animation: moveTitle 500ms reverse;
+}
+.show1 {
+  position: absolute;
+  animation: inp1 1s reverse;
+  bottom: 165px;
+  left: 71px;
+  border-radius: 10px;
+}
+.show2 {
+  position: absolute;
+  animation: inp2 1s reverse;
+  bottom: 100px;
+  right: 63px;
+  border-radius: 10px;
+}
+@keyframes moveTitle {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 1180px;
+  }
+}
+@keyframes inp1 {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 1180px;
+  }
+}
+@keyframes inp2 {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 1180px;
+  }
+}
+
+.circleUsName {
+  position: absolute;
+  top: 285px;
+  left: 28px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #cbcbcb, #ababab);
+  box-shadow: 5px 5px 10px #949494, -5px -5px 10px #e8e8e8;
+}
+
+.circlePass {
+  position: absolute;
+  top: 350px;
+  left: 28px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #cbcbcb, #ababab);
+  box-shadow: 5px 5px 10px #949494, -5px -5px 10px #e8e8e8;
+}
+.red {
+  background: linear-gradient(145deg, #cbcbcb, #ababab);
+  box-shadow: 5px 5px 10px #949494, -5px -5px 10px #e8e8e8;
+}
+.green {
+  background: linear-gradient(145deg, #cbcbcb, #ababab);
+  box-shadow: 0px 0px 10px #4dff06, 0px 0px 11px #e8e8e8;
+}

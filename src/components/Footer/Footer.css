@@ -1,0 +1,28 @@
+.app_footer {
+  height: 60px;
+  background: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.app_footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.footer_contacts {
+  padding-right: 10px;
+  color: white;
+}
+.inst {
+  color: #d53389;
+}
+.face {
+  color: #4064ac;
+}
+.pent {
+  color: #df0022;
+}

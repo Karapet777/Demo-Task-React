@@ -1,0 +1,19 @@
+.app_Header {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* position: fixed;
+  left: 0;
+  top: 0; */
+}
+.app_Header a {
+  text-decoration: none;
+  color: white;
+  /* padding: 5px 10px; */
+}
+.app_Header a:hover {
+  border-bottom: 2px solid white;
+}

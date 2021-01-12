@@ -1,0 +1,10 @@
+.app_Layout {
+  height: 100vh;
+  display: flex;
+  background: url(../../Assets/img/bg.jpg);
+  background-size: cover;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 60px;
+}

@@ -1,0 +1,30 @@
+.ListItme_block {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: gray;
+  border-radius: 5px;
+}
+.block {
+  display: flex;
+}
+.ListItme_block img {
+  border-radius: 5px;
+  width: 200px;
+}
+.itme_info {
+  padding: 20px;
+  color: black;
+}
+.app_itme {
+  display: flex;
+}
+.btn_Bay {
+  padding: 5px 55px;
+  border-radius: 5px;
+  border: none;
+}
+.btn_Bay:hover {
+  background-color: black;
+  color: white;
+}

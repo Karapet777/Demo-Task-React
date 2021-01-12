@@ -1,0 +1,47 @@
+.btn {
+  width: 30%;
+  height: 40px;
+  margin: 10px auto;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #cbcbcb, #ababab);
+  box-shadow: 5px 5px 10px #949494, -5px -5px 10px #e8e8e8;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+.btn:focus {
+  outline: 0;
+}
+
+.show3 {
+  position: absolute;
+  animation: btnshowPass 2s reverse;
+  bottom: 34px;
+  left: 70px;
+  border-radius: 10px;
+}
+
+.show33 {
+  position: absolute;
+  animation: btnshowLogin 2.5s reverse;
+  bottom: 34px;
+  left: 250px;
+  border-radius: 10px;
+}
+
+@keyframes btnshowLogin {
+  0% {
+    left: 250px;
+  }
+  100% {
+    left: 1180px;
+  }
+}
+@keyframes btnshowPass {
+  0% {
+    left: 75px;
+  }
+  100% {
+    left: 1180px;
+  }
+}
