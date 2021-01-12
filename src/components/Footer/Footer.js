@@ -7,13 +7,13 @@ const Footer = () => {
     <div className="app_footer">
       <div>
         <a href="https://www.instagram.com" target="blank">
-          <i class="fab fa-instagram inst"></i>
+          Instagram
         </a>
         <a href="https://www.facebook.com" target="blank">
-          <i class="fab fa-facebook face"></i>
+          Facebook
         </a>
         <a href="https://www.pinterest.ru/" target="blank">
-          <i class="fab fa-pinterest pent"></i>
+          Pinterest
         </a>
       </div>
       <div>

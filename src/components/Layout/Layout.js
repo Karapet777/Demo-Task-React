@@ -6,8 +6,11 @@ import "../Layout/Layout.css";
 const Layout = ({ children }) => {
   return (
     <div className="app_Layout">
-      <main>{children}</main>
-      <Footer />
+      <main className="app_main">
+        {children}
+
+        <Footer />
+      </main>
     </div>
   );
 };

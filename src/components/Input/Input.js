@@ -5,7 +5,7 @@ const Input = (props) => {
     <div>
       <input
         placeholder={props.plac}
-        className={props.class}
+        className={props.className}
         value={props.value}
         type="text"
         onChange={props.userText}

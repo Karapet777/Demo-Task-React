@@ -4,13 +4,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 .btn_write button {
   padding: 10px 15px;
   margin: 10px;
   border-radius: 5px;
   border: 1px solid black;
-  text-transform: uppercase;
 }
 .btn_write button:hover {
   background-color: black;

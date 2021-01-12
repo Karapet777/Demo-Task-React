@@ -33,11 +33,11 @@ class App extends React.Component {
         <Layout>
           <div className="btn_write">
             <Button
-              title="write List"
+              title="View List"
               check={this.WriteListHeandler.bind(this)}
             />
             <Button
-              title="write Form"
+              title="View Form"
               check={this.WriteFormHeandler.bind(this)}
             />
           </div>

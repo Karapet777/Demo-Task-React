@@ -59,26 +59,26 @@ class Form extends React.Component {
 
           <p className="title_form">Welcome 2021 year</p>
           <Input
-            class={ClassesLog.join(" ")}
+            className={ClassesLog.join(" ")}
             value={this.state.Name}
             userText={this.inpName}
             plac={"Login"}
             type="text"
           />
           <Input
-            class={ClassesPass.join(" ")}
+            className={ClassesPass.join(" ")}
             value={this.state.Pass}
             userText={this.inpPass}
             plac={"Password"}
             type="password"
           />
           <Button
-            class={"btn show33"}
+            className={"btn show33"}
             title={"Login"}
             check={this.btnLog.bind(this)}
           />
           <Button
-            class={"btn show3"}
+            className={"btn show3"}
             title={"Register"}
             check={this.btnReg.bind(this)}
           />

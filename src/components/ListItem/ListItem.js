@@ -11,7 +11,7 @@ function Listitme(props) {
         <div>{props.img}</div>
         <p className="itme_info">{props.info}</p>
       </div>
-      <Button title="Buy" class="btn_Bay" />
+      <Button title="Buy" className="btn_Bay" />
     </div>
   );
 }
